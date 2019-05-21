@@ -1,2 +1,2 @@
 # SerahApp
-Project akhir matakuliah RPL
+Project akhir mata kuliah RPL
