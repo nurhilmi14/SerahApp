@@ -10,14 +10,22 @@
 ?>
 
 <!-- Footer -->
-<footer id="page-footer" class="bg-white opacity-0">
-    <div class="content py-20 font-size-xs clearfix">
-        <div class="float-right">
-            Crafted with <i class="fa fa-heart text-pulse"></i> by <a class="font-w600" href="https://1.envato.market/ydb" target="_blank">pixelcave</a>
-        </div>
-        <div class="float-left">
-            <a class="font-w600" href="https://1.envato.market/95j" target="_blank"><?php echo $cb->name . ' ' . $cb->version; ?></a> &copy; <span class="js-year-copy">2017</span>
-        </div>
-    </div>
+<footer id="page-footer" class="" >
+        <!-- Flat Grid -->
+        <ul class="bg-white nav nav-tabs nav-tabs-alt" style="position:fixed;width:100%;bottom:0;" data-toggle="tabs" role="tablist">
+            <li class="col-3 nav-item">
+                <a class="nav-link" href="#home">&nbsp<i class="si si-home fa-2x"></i></a>
+            </li>
+            <li class="col-3 nav-item">
+                <a class="nav-link" href="#search">&nbsp<i class="si si-magnifier fa-2x"></i></a>
+            </li>
+            <li class="col-3 nav-item">
+                <a class="nav-link" href="#favorit">&nbsp<i class="si si-heart fa-2x"></i></a>
+            </li>
+            <li class="col-3 nav-item">
+                <a class="nav-link" href="#user">&nbsp<i class="si si-user fa-2x"></i></a>
+            </li>
+        </ul>
+        <!-- END Flat Grid -->
 </footer>
 <!-- END Footer -->
