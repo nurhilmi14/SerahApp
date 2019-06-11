@@ -17,7 +17,6 @@ $cb->l_header_style = 'glass';
         </div>
     </div>
 </div>
-<h1>hello</h1>
 
 <!-- Page Content -->
 <div class="content">
